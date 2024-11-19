@@ -1,0 +1,1096 @@
+[
+  {
+    "op": "add",
+    "value": {
+      "id": 1,
+      "answer": "Answer EN",
+      "source": "source2",
+      "questions": ["Question EN"],
+      "metadata": {
+        "topic": "Topic",
+        "subTopic": "Sub-Topic"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 2,
+      "answer": "Answer FR",
+      "source": "source2",
+      "questions": ["Question FR"],
+      "metadata": {
+        "topic": "Topic",
+        "subTopic": "Sub-Topic"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 3,
+      "answer": "Case management at the University of Ottawa involves a non-clinical service that supports students with complex needs by coordinating various resources both within the university and the community.",
+      "source": "source2",
+      "questions": ["What is case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 4,
+      "answer": "La gestion de cas Ã  l'Université d'Ottawa est un service non clinique qui soutient les étudiants ayant des besoins complexes en coordonnant diverses ressources au sein de l'université et dans la communauté.",
+      "source": "source2",
+      "questions": ["Qu'est-ce que la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 5,
+      "answer": "All University of Ottawa students with complex needs that require coordination of various support services can access case management services.",
+      "source": "source2",
+      "questions": ["Who can access case management services?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 6,
+      "answer": "Tous les étudiants de l'Université d'Ottawa ayant des besoins complexes nécessitant la coordination de divers services de soutien peuvent accéder aux services de gestion de cas.",
+      "source": "source2",
+      "questions": ["Qui peut accéder aux services de gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 7,
+      "answer": "The goals of case management are to provide an integrated approach to managing academic, health, or personal needs by creating a personalized support system.",
+      "source": "source2",
+      "questions": ["What are the goals of case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 8,
+      "answer": "Les objectifs de la gestion de cas sont de fournir une approche intégrée pour gérer les besoins académiques, de santé ou personnels en créant un systÃ¨me de soutien personnalisé.",
+      "source": "source2",
+      "questions": ["Quels sont les objectifs de la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 9,
+      "answer": "Case management works by assessing the student's needs and coordinating various resources and services, both within and outside the university, to support the student in overcoming challenges.",
+      "source": "source2",
+      "questions": ["How does case management work?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 10,
+      "answer": "La gestion de cas fonctionne en évaluant les besoins de l'étudiant et en coordonnant diverses ressources et services, tant Ã  l'intérieur qu'Ã  l'extérieur de l'université, pour aider l'étudiant Ã  surmonter les défis.",
+      "source": "source2",
+      "questions": ["Comment fonctionne la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 11,
+      "answer": "Support in case management includes academic accommodations, mental health support, assistance with housing, and connection to community resources.",
+      "source": "source2",
+      "questions": ["What types of support are included in case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 12,
+      "answer": "Le soutien dans la gestion de cas comprend des accommodements académiques, un soutien en santé mentale, une aide au logement et une connexion aux ressources communautaires.",
+      "source": "source2",
+      "questions": ["Quels types de soutien sont inclus dans la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 13,
+      "answer": "A student can request case management services by contacting the Student Support team through the University of Ottawa's website or by visiting the Student Health and Wellness Centre.",
+      "source": "source2",
+      "questions": ["How can a student request case management services?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 14,
+      "answer": "Un étudiant peut demander des services de gestion de cas en contactant l'équipe de soutien aux étudiants via le site Web de l'Université d'Ottawa ou en visitant le Centre de santé et de bien-Ãªtre des étudiants.",
+      "source": "source2",
+      "questions": ["Comment un étudiant peut-il demander des services de gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 15,
+      "answer": "The referral process involves a student or someone concerned about the student contacting the case management team, who will then assess the situation and determine the appropriate services needed.",
+      "source": "source2",
+      "questions": ["What is the referral process for case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 16,
+      "answer": "Le processus de recommandation implique qu'un étudiant ou une personne concernée par l'étudiant contacte l'équipe de gestion de cas, qui évaluera ensuite la situation et déterminera les services appropriés nécessaires.",
+      "source": "source2",
+      "questions": ["Quel est le processus de recommandation pour la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 17,
+      "answer": "No, case management services are provided free of charge to all students at the University of Ottawa.",
+      "source": "source2",
+      "questions": ["Are there any fees for case management services?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 18,
+      "answer": "Non, les services de gestion de cas sont offerts gratuitement Ã  tous les étudiants de l'Université d'Ottawa.",
+      "source": "source2",
+      "questions": ["Y a-t-il des frais pour les services de gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 19,
+      "answer": "The intake process involves an initial assessment where the case manager gathers information about the student's needs and challenges to create a tailored support plan.",
+      "source": "source2",
+      "questions": ["What is involved in the intake process for case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 20,
+      "answer": "Le processus d'admission consiste en une évaluation initiale oÃ¹ le gestionnaire de cas recueille des informations sur les besoins et les défis de l'étudiant pour créer un plan de soutien personnalisé.",
+      "source": "source2",
+      "questions": ["En quoi consiste le processus d'admission pour la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 21,
+      "answer": "Follow-up services in case management include regular check-ins to monitor the student's progress, adjustments to the support plan as needed, and ongoing coordination of services.",
+      "source": "source2",
+      "questions": ["What follow-up services are provided in case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 22,
+      "answer": "Les services de suivi dans la gestion de cas comprennent des vérifications réguliÃ¨res pour surveiller les progrÃ¨s de l'étudiant, des ajustements au plan de soutien si nécessaire et une coordination continue des services.",
+      "source": "source2",
+      "questions": ["Quels services de suivi sont fournis dans la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 23,
+      "answer": "More information about case management services can be found on the University of Ottawa's official website under the Student Health and Wellness section.",
+      "source": "source2",
+      "questions": ["Where can I find more information about case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 24,
+      "answer": "Plus d'informations sur les services de gestion de cas sont disponibles sur le site officiel de l'Université d'Ottawa dans la section Santé et bien-Ãªtre des étudiants.",
+      "source": "source2",
+      "questions": ["OÃ¹ puis-je trouver plus d'informations sur la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 25,
+      "answer": "Case management at the University of Ottawa involves a non-clinical service that supports students with complex needs by coordinating various resources both within the university and the community.",
+      "source": "source2",
+      "questions": ["What is case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 26,
+      "answer": "La gestion de cas Ã  l'Université d'Ottawa est un service non clinique qui soutient les étudiants ayant des besoins complexes en coordonnant diverses ressources au sein de l'université et dans la communauté.",
+      "source": "source2",
+      "questions": ["Qu'est-ce que la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 27,
+      "answer": "All University of Ottawa students with complex needs that require coordination of various support services can access case management services.",
+      "source": "source2",
+      "questions": ["Who can access case management services?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 28,
+      "answer": "Tous les étudiants de l'Université d'Ottawa ayant des besoins complexes nécessitant la coordination de divers services de soutien peuvent accéder aux services de gestion de cas.",
+      "source": "source2",
+      "questions": ["Qui peut accéder aux services de gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 29,
+      "answer": "The goals of case management are to provide an integrated approach to managing academic, health, or personal needs by creating a personalized support system.",
+      "source": "source2",
+      "questions": ["What are the goals of case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 30,
+      "answer": "Les objectifs de la gestion de cas sont de fournir une approche intégrée pour gérer les besoins académiques, de santé ou personnels en créant un systÃ¨me de soutien personnalisé.",
+      "source": "source2",
+      "questions": ["Quels sont les objectifs de la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 31,
+      "answer": "Case management works by assessing the student's needs and coordinating various resources and services, both within and outside the university, to support the student in overcoming challenges.",
+      "source": "source2",
+      "questions": ["How does case management work?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 32,
+      "answer": "La gestion de cas fonctionne en évaluant les besoins de l'étudiant et en coordonnant diverses ressources et services, tant Ã  l'intérieur qu'Ã  l'extérieur de l'université, pour aider l'étudiant Ã  surmonter les défis.",
+      "source": "source2",
+      "questions": ["Comment fonctionne la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 33,
+      "answer": "Support in case management includes academic accommodations, mental health support, assistance with housing, and connection to community resources.",
+      "source": "source2",
+      "questions": ["What types of support are included in case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 34,
+      "answer": "Le soutien dans la gestion de cas comprend des accommodements académiques, un soutien en santé mentale, une aide au logement et une connexion aux ressources communautaires.",
+      "source": "source2",
+      "questions": ["Quels types de soutien sont inclus dans la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 35,
+      "answer": "A student can request case management services by contacting the Student Support team through the University of Ottawa's website or by visiting the Student Health and Wellness Centre.",
+      "source": "source2",
+      "questions": ["How can a student request case management services?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 36,
+      "answer": "Un étudiant peut demander des services de gestion de cas en contactant l'équipe de soutien aux étudiants via le site Web de l'Université d'Ottawa ou en visitant le Centre de santé et de bien-Ãªtre des étudiants.",
+      "source": "source2",
+      "questions": ["Comment un étudiant peut-il demander des services de gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 37,
+      "answer": "The referral process involves a student or someone concerned about the student contacting the case management team, who will then assess the situation and determine the appropriate services needed.",
+      "source": "source2",
+      "questions": ["What is the referral process for case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 38,
+      "answer": "Le processus de recommandation implique qu'un étudiant ou une personne concernée par l'étudiant contacte l'équipe de gestion de cas, qui évaluera ensuite la situation et déterminera les services appropriés nécessaires.",
+      "source": "source2",
+      "questions": ["Quel est le processus de recommandation pour la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 39,
+      "answer": "No, case management services are provided free of charge to all students at the University of Ottawa.",
+      "source": "source2",
+      "questions": ["Are there any fees for case management services?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 40,
+      "answer": "Non, les services de gestion de cas sont offerts gratuitement Ã  tous les étudiants de l'Université d'Ottawa.",
+      "source": "source2",
+      "questions": ["Y a-t-il des frais pour les services de gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 41,
+      "answer": "The intake process involves an initial assessment where the case manager gathers information about the student's needs and challenges to create a tailored support plan.",
+      "source": "source2",
+      "questions": ["What is involved in the intake process for case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 42,
+      "answer": "Le processus d'admission consiste en une évaluation initiale oÃ¹ le gestionnaire de cas recueille des informations sur les besoins et les défis de l'étudiant pour créer un plan de soutien personnalisé.",
+      "source": "source2",
+      "questions": ["En quoi consiste le processus d'admission pour la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 43,
+      "answer": "Follow-up services in case management include regular check-ins to monitor the student's progress, adjustments to the support plan as needed, and ongoing coordination of services.",
+      "source": "source2",
+      "questions": ["What follow-up services are provided in case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 44,
+      "answer": "Les services de suivi dans la gestion de cas comprennent des vérifications réguliÃ¨res pour surveiller les progrÃ¨s de l'étudiant, des ajustements au plan de soutien si nécessaire et une coordination continue des services.",
+      "source": "source2",
+      "questions": ["Quels services de suivi sont fournis dans la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 45,
+      "answer": "More information about case management services can be found on the University of Ottawa's official website under the Student Health and Wellness section.",
+      "source": "source2",
+      "questions": ["Where can I find more information about case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 46,
+      "answer": "Plus d'informations sur les services de gestion de cas sont disponibles sur le site officiel de l'Université d'Ottawa dans la section Santé et bien-Ãªtre des étudiants.",
+      "source": "source2",
+      "questions": ["OÃ¹ puis-je trouver plus d'informations sur la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 47,
+      "answer": "Faculty members can refer a student to case management by contacting the Student Support team directly through the University's internal communication channels.",
+      "source": "source2",
+      "questions": ["How can faculty members refer a student to case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 48,
+      "answer": "Les membres du corps professoral peuvent recommander un étudiant Ã  la gestion de cas en contactant directement l'équipe de soutien aux étudiants par les canaux de communication internes de l'université.",
+      "source": "source2",
+      "questions": [
+        "Comment les membres du corps professoral peuvent-ils recommander un étudiant Ã  la gestion de cas?"
+      ],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 49,
+      "answer": "After a referral is made, the case management team will reach out to the student to assess their needs and begin coordinating the necessary services.",
+      "source": "source2",
+      "questions": ["What happens after a referral is made?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 50,
+      "answer": "AprÃ¨s qu'une recommandation est faite, l'équipe de gestion de cas contactera l'étudiant pour évaluer ses besoins et commencer Ã  coordonner les services nécessaires.",
+      "source": "source2",
+      "questions": ["Que se passe-t-il aprÃ¨s qu'une recommandation est faite?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 51,
+      "answer": "Yes, students can self-refer to case management by contacting the Student Support team or by visiting the Student Health and Wellness Centre.",
+      "source": "source2",
+      "questions": ["Can students self-refer to case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 52,
+      "answer": "Oui, les étudiants peuvent s'auto-référer Ã  la gestion de cas en contactant l'équipe de soutien aux étudiants ou en visitant le Centre de santé et de bien-Ãªtre des étudiants.",
+      "source": "source2",
+      "questions": ["Les étudiants peuvent-ils s'auto-référer Ã  la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 53,
+      "answer": "During the initial case management meeting, students can expect to discuss their challenges, needs, and goals with the case manager, who will then create a personalized support plan.",
+      "source": "source2",
+      "questions": ["What should a student expect during the initial case management meeting?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 54,
+      "answer": "Lors de la premiÃ¨re réunion de gestion de cas, les étudiants peuvent s'attendre Ã  discuter de leurs défis, besoins et objectifs avec le gestionnaire de cas, qui créera ensuite un plan de soutien personnalisé.",
+      "source": "source2",
+      "questions": ["À quoi un étudiant doit-il s'attendre lors de la premiÃ¨re réunion de gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 55,
+      "answer": "The benefits of using case management services include receiving personalized support, having a single point of contact for various services, and better managing academic and personal challenges.",
+      "source": "source2",
+      "questions": ["What are the benefits of using case management services?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 56,
+      "answer": "Les avantages d'utiliser les services de gestion de cas comprennent un soutien personnalisé, un point de contact unique pour divers services et une meilleure gestion des défis académiques et personnels.",
+      "source": "source2",
+      "questions": ["Quels sont les avantages d'utiliser les services de gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 57,
+      "answer": "Yes, case management services can assist students in connecting with off-campus resources, such as community support services, housing assistance, and mental health resources.",
+      "source": "source2",
+      "questions": ["Can case management services assist with off-campus resources?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 58,
+      "answer": "Oui, les services de gestion de cas peuvent aider les étudiants Ã  se connecter avec des ressources hors campus, telles que des services de soutien communautaire, une aide au logement et des ressources en santé mentale.",
+      "source": "source2",
+      "questions": ["Les services de gestion de cas peuvent-ils aider avec les ressources hors campus?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 59,
+      "answer": "Case management coordinates with other university services by working closely with departments such as academic accommodations, health services, and student affairs to provide comprehensive support.",
+      "source": "source2",
+      "questions": ["How does case management coordinate with other university services?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 60,
+      "answer": "La gestion de cas coordonne avec les autres services universitaires en travaillant en étroite collaboration avec des départements tels que les accommodements académiques, les services de santé et les affaires étudiantes pour offrir un soutien complet.",
+      "source": "source2",
+      "questions": ["Comment la gestion de cas coordonne-t-elle avec les autres services universitaires?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 61,
+      "answer": "If you are concerned about a friend, you can refer them to case management by contacting the Student Support team or by encouraging them to reach out themselves.",
+      "source": "source2",
+      "questions": ["What should I do if I am concerned about a friend?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 62,
+      "answer": "Si vous Ãªtes inquiet pour un ami, vous pouvez le recommander Ã  la gestion de cas en contactant l'équipe de soutien aux étudiants ou en l'encourageant Ã  les contacter lui-mÃªme.",
+      "source": "source2",
+      "questions": ["Que dois-je faire si je suis inquiet pour un ami?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 63,
+      "answer": "Case management services are offered in both English and French to accommodate the diverse student population at the University of Ottawa.",
+      "source": "source2",
+      "questions": ["What languages are case management services offered in?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 64,
+      "answer": "Les services de gestion de cas sont offerts en anglais et en franÃ§ais pour accommoder la population étudiante diversifiée de l'Université d'Ottawa.",
+      "source": "source2",
+      "questions": ["Dans quelles langues les services de gestion de cas sont-ils offerts?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 65,
+      "answer": "Yes, all case management services are confidential, and information is only shared with relevant parties with the student's consent.",
+      "source": "source2",
+      "questions": ["Are case management services confidential?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 66,
+      "answer": "Oui, tous les services de gestion de cas sont confidentiels, et les informations ne sont partagées avec les parties concernées qu'avec le consentement de l'étudiant.",
+      "source": "source2",
+      "questions": ["Les services de gestion de cas sont-ils confidentiels?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 67,
+      "answer": "The role of a case manager is to assess the needs of the student, develop a support plan, and coordinate various services to help the student achieve their goals.",
+      "source": "source2",
+      "questions": ["What is the role of a case manager?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 68,
+      "answer": "Le rÃ´le d'un gestionnaire de cas est d'évaluer les besoins de l'étudiant, de développer un plan de soutien et de coordonner divers services pour aider l'étudiant Ã  atteindre ses objectifs.",
+      "source": "source2",
+      "questions": ["Quel est le rÃ´le d'un gestionnaire de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 69,
+      "answer": "Yes, case management can help students with mental health issues by connecting them with appropriate mental health services and providing ongoing support.",
+      "source": "source2",
+      "questions": ["Can case management help with mental health issues?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 70,
+      "answer": "Oui, la gestion de cas peut aider les étudiants ayant des problÃ¨mes de santé mentale en les connectant avec les services de santé mentale appropriés et en leur fournissant un soutien continu.",
+      "source": "source2",
+      "questions": ["La gestion de cas peut-elle aider avec des problÃ¨mes de santé mentale?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 71,
+      "answer": "Case management can provide academic support by helping students access accommodations, connect with academic advisors, and manage their workload effectively.",
+      "source": "source2",
+      "questions": ["What types of academic support can case management provide?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 72,
+      "answer": "La gestion de cas peut fournir un soutien académique en aidant les étudiants Ã  accéder aux accommodements, Ã  se connecter avec des conseillers académiques et Ã  gérer leur charge de travail de maniÃ¨re efficace.",
+      "source": "source2",
+      "questions": ["Quels types de soutien académique la gestion de cas peut-elle fournir?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 73,
+      "answer": "The duration of case management services varies depending on the student's needs, with support continuing as long as necessary to address the student's challenges.",
+      "source": "source2",
+      "questions": ["How long do case management services last?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 74,
+      "answer": "La durée des services de gestion de cas varie en fonction des besoins de l'étudiant, le soutien se poursuivant aussi longtemps que nécessaire pour relever les défis de l'étudiant.",
+      "source": "source2",
+      "questions": ["Combien de temps durent les services de gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 75,
+      "answer": "Yes, international students at the University of Ottawa can access case management services, and support is available to help them navigate unique challenges they may face.",
+      "source": "source2",
+      "questions": ["Can international students access case management services?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 76,
+      "answer": "Oui, les étudiants internationaux de l'Université d'Ottawa peuvent accéder aux services de gestion de cas, et un soutien est disponible pour les aider Ã  surmonter les défis uniques auxquels ils peuvent Ãªtre confrontés.",
+      "source": "source2",
+      "questions": ["Les étudiants internationaux peuvent-ils accéder aux services de gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 77,
+      "answer": "The Student Support team plays a crucial role in providing case management services, offering non-clinical support, and coordinating resources to help students with complex needs.",
+      "source": "source2",
+      "questions": ["What is the role of the Student Support team?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 78,
+      "answer": "L'équipe de soutien aux étudiants joue un rÃ´le crucial en fournissant des services de gestion de cas, en offrant un soutien non clinique et en coordonnant les ressources pour aider les étudiants ayant des besoins complexes.",
+      "source": "source2",
+      "questions": ["Quel est le rÃ´le de l'équipe de soutien aux étudiants?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - General Info"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 79,
+      "answer": "Progress in case management is monitored through regular check-ins with the student, where the case manager assesses the effectiveness of the support plan and makes adjustments as needed.",
+      "source": "source2",
+      "questions": ["How is progress monitored in case management?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 80,
+      "answer": "Les progrÃ¨s dans la gestion de cas sont suivis par des vérifications réguliÃ¨res avec l'étudiant, oÃ¹ le gestionnaire de cas évalue l'efficacité du plan de soutien et apporte les ajustements nécessaires.",
+      "source": "source2",
+      "questions": ["Comment les progrÃ¨s sont-ils suivis dans la gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 81,
+      "answer": "Students should bring any relevant documentation, such as medical records, academic records, or previous assessments, to their first case management meeting.",
+      "source": "source2",
+      "questions": ["What should a student bring to their first case management meeting?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 82,
+      "answer": "Les étudiants doivent apporter toute documentation pertinente, telle que des dossiers médicaux, des relevés de notes ou des évaluations précédentes, Ã  leur premiÃ¨re réunion de gestion de cas.",
+      "source": "source2",
+      "questions": ["Que doit apporter un étudiant Ã  sa premiÃ¨re réunion de gestion de cas?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 83,
+      "answer": "Yes, case management services can help students with financial issues by connecting them to financial aid resources and providing guidance on managing their finances.",
+      "source": "source2",
+      "questions": ["Can case management services help with financial issues?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  },
+  {
+    "op": "add",
+    "value": {
+      "id": 84,
+      "answer": "Oui, les services de gestion de cas peuvent aider les étudiants avec des problÃ¨mes financiers en les connectant Ã  des ressources d'aide financiÃ¨re et en leur fournissant des conseils sur la gestion de leurs finances.",
+      "source": "source2",
+      "questions": ["Les services de gestion de cas peuvent-ils aider avec des problÃ¨mes financiers?"],
+      "metadata": {
+        "topic": "Case Management",
+        "subTopic": "Case Management - Services"
+      }
+    }
+  }
+]
