@@ -6,6 +6,7 @@ input_file = "../data/testqnasCaseManagement.json"  # 输入 JSON 文件
 output_file_en = "../result/testqnasCaseManagement_en_azure.tsv"  # 输出的英语 TSV 文件
 output_file_fr = "../result/testqnasCaseManagement_fr_azure.tsv"  # 输出的法语 TSV 文件
 
+
 # JSON 转 TSV 的函数（基于交替拆分）
 def json_to_tsv_alternate(input_file, output_file_en, output_file_fr):
     with open(input_file, "r", encoding="utf-8") as infile:
@@ -37,6 +38,7 @@ def json_to_tsv_alternate(input_file, output_file_en, output_file_fr):
     print(f"English TSV data saved to {output_file_en}")
     print(f"French TSV data saved to {output_file_fr}")
 
+
 # 保存数据到 TSV
 def save_to_tsv(output_file, rows):
     with open(output_file, "w", encoding="utf-8", newline="") as outfile:
@@ -45,6 +47,7 @@ def save_to_tsv(output_file, rows):
         tsv_writer.writerow(["Question", "Answer", "Metadata"])
         # 写入数据
         tsv_writer.writerows(rows)
+
 
 # 执行转换
 json_to_tsv_alternate(input_file, output_file_en, output_file_fr)

@@ -32,6 +32,7 @@ engine = os.getenv("OPENAI_DEPLOYMENT_ID")  # 使用部署的模型 ID
 input_file = "../result/testqnasCaseManagement_en_azure.tsv"  # 输入的 TSV 文件
 output_file = "../result/testqnasCaseManagement_en_azure_with_alternates.tsv"  # 输出的 TSV 文件
 
+
 # 生成替代问题
 def generate_alternate_questions(original_question, n=5):
     prompt = f"Generate {n} alternate ways to ask the following question:\nQuestion: {original_question}\nAlternate Questions:"
@@ -53,10 +54,12 @@ def generate_alternate_questions(original_question, n=5):
         logging.error(f"Failed to generate alternate questions for: '{original_question}' - Error: {str(e)}")
         return []
 
+
 # 处理 TSV 文件
 def process_tsv_file(input_file, output_file, max_alternates=5):
     try:
-        with open(input_file, "r", encoding="utf-8") as infile, open(output_file, "w", encoding="utf-8", newline="") as outfile:
+        with open(input_file, "r", encoding="utf-8") as infile, open(output_file, "w", encoding="utf-8",
+                                                                     newline="") as outfile:
             reader = csv.DictReader(infile, delimiter="\t")
             fieldnames = ["Question", "Answer", "Metadata"]
             writer = csv.DictWriter(outfile, fieldnames=fieldnames, delimiter="\t")
@@ -82,6 +85,7 @@ def process_tsv_file(input_file, output_file, max_alternates=5):
         logging.info(f"Processed file saved to: {output_file}")
     except Exception as e:
         logging.error(f"Error while processing TSV file: {str(e)}")
+
 
 # 执行主函数
 if __name__ == "__main__":
