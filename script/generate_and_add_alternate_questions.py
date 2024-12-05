@@ -90,32 +90,3 @@ def process_tsv_file(input_file, output_file, max_alternates=5):
 # 执行主函数
 if __name__ == "__main__":
     process_tsv_file(input_file, output_file, max_alternates=5)
-    # import openai
-    # from dotenv import load_dotenv
-    # import os
-    #
-    # # 加载 .env 文件
-    # load_dotenv()
-    #
-    # # Azure OpenAI 配置
-    # openai.api_type = os.getenv("OPENAI_API_TYPE")  # 必须是 "azure"
-    # openai.api_key = os.getenv("OPENAI_API_KEY")
-    # openai.api_base = os.getenv("OPENAI_API_BASE")
-    # openai.api_version = os.getenv("OPENAI_API_VERSION")
-    # engine = os.getenv("OPENAI_DEPLOYMENT_ID")  # 部署名称
-    #
-    # # 测试调用
-    # try:
-    #     response = openai.ChatCompletion.create(
-    #         engine=engine,
-    #         messages=[
-    #             {"role": "system", "content": "You are a helpful assistant."},
-    #             {"role": "user", "content": "What is Azure OpenAI?"}
-    #         ],
-    #         max_tokens=50,
-    #         temperature=0.7
-    #     )
-    #     print(response['choices'][0]['message']['content'])
-    # except Exception as e:
-    #     print(f"Error: {e}")
-    #

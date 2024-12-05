@@ -1,0 +1,78 @@
+[
+    {
+        "Question EN":"Where is the Wellness lounge?",
+        "Expected Response EN":"In UCU203 and UCU205"
+    },
+    {
+        "Question EN":"Where is the Student Health and Wellness centre?",
+        "Expected Response EN":"Minto Sports Complex \n801 King Edward Avenue, Room N203 (2nd floor)\nOttawa, Ontario K1N 6N5"
+    },
+    {
+        "Question EN":"Where can I get a doctor's appointment on campus?",
+        "Expected Response EN":"At the Student Health and Wellness Centre. Using the web portal, the CHR Connect mobile app, or by calling us at 613-562-5498"
+    },
+    {
+        "Question EN":"How do I meet with a psychotherapist?",
+        "Expected Response EN":"By taking an appointment at the Student Health and Wellness Centre."
+    },
+    {
+        "Question EN":"How can I book an appointment at the clinic on campus?",
+        "Expected Response EN":"Using the web portal, the CHR Connect mobile app, or by calling us at 613-562-5498"
+    },
+    {
+        "Question EN":"How can I get academic accommodations?",
+        "Expected Response EN":"You can create an account on Ventus, and start your onboaridng process. You will be asked to upload supporting medical documentation that will then be reviewed by a learning specialist who will assist you in the process of getting your academic accomodations for your classes and\/or your exams. "
+    },
+    {
+        "Question EN":"Do I need a doctors note to get Academic accommodations?",
+        "Expected Response EN":"Yes you will need supporting medical documentations."
+    },
+    {
+        "Question EN":"Does uOttawa do HIV testing?",
+        "Expected Response EN":"For HIV testing, the University of Ottawa, in partnership with Somerset West Community Health Centre,  offers free weekly rapid anonymous HIV testing on Wednesdays between 12pm-3pm. "
+    },
+    {
+        "Question EN":"How can I get an appointment for my mental health on campus?",
+        "Expected Response EN":"By taking an appointment at the Student Health and WellnessCcentre."
+    },
+    {
+        "Question EN":"What is the phone number of the clinic on campus?",
+        "Expected Response EN":"613-562-5498"
+    },
+    {
+        "Question EN":"Is the clinic on campus open right now?",
+        "Expected Response EN":"Fall and winter hours of operations\n\nMonday: 8 am to 4 pm\nTuesday: 8 am to 4 pm \nWednesday: 8 am to 4 pm\nThursday: 8 am to 4 pm\nFriday: 8 am to 4 pm\nSaturday: 9 am to 2 pm \nSunday: Closed"
+    },
+    {
+        "Question EN":"What is Case management?",
+        "Expected Response EN":"The Student Support team offers non-clinical case management services to students with complex needs at the University of Ottawa."
+    },
+    {
+        "Question EN":"What is the uoWellness app?",
+        "Expected Response EN":"The uoWellness app is a one-stop solution for health and wellness designed by students, for students, and tailored to university life. The app helps make your wellness journey simpler and engaging. "
+    },
+    {
+        "Question EN":"How much is a doctor's appointment at the student health and Wellness centre?",
+        "Expected Response EN":"The Health fee to acess the centre is already included in your tuition and gives you access to the centre. Most services are provided free of charge but some services that are not covered by OHIP or UHIP might involve a fee: https:\/\/www.uottawa.ca\/campus-life\/health-wellness\/student-health-wellness-centre\/fees-not-covered"
+    },
+    {
+        "Question EN":"Does my insurance cover the appointments at the student health and Wellness centre?",
+        "Expected Response EN":"Most services are provided free of charge but some services that are not covered by OHIP or UHIP might involve a fee: https:\/\/www.uottawa.ca\/campus-life\/health-wellness\/student-health-wellness-centre\/fees-not-covered"
+    },
+    {
+        "Question EN":"Is there a pharmacy on campus?",
+        "Expected Response EN":"There is a pharmacy on campus that is located at 100 Marie Curie Pvt. Ottawa"
+    },
+    {
+        "Question EN":"How do I register for wellness workshops?",
+        "Expected Response EN":"You can register for most of our workshops or services either through our webiste or on the uoWellness app."
+    },
+    {
+        "Question EN":"How much does it cost to get academic accommodations?",
+        "Expected Response EN":"Nothing, academic accomodations altough some of the medical documentations needed might involve a fee at your doctor's office."
+    },
+    {
+        "Question EN":"Can I get blood work done on campus?",
+        "Expected Response EN":"Yes, you can have bloodwork done atvthe Student Health and Wellness Centre."
+    }
+]

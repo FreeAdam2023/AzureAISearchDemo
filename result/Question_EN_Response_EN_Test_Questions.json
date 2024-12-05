@@ -1,0 +1,382 @@
+[
+    {
+        "Test Question": "1. Can you tell me the location of the Wellness lounge?",
+        "Answer": "In UCU203 and UCU205"
+    },
+    {
+        "Test Question": "2. Do you know where the Wellness lounge is?",
+        "Answer": "In UCU203 and UCU205"
+    },
+    {
+        "Test Question": "3. Where can I find the Wellness lounge?",
+        "Answer": "In UCU203 and UCU205"
+    },
+    {
+        "Test Question": "4. Is the Wellness lounge nearby?",
+        "Answer": "In UCU203 and UCU205"
+    },
+    {
+        "Test Question": "5. Could you direct me to the Wellness lounge?",
+        "Answer": "In UCU203 and UCU205"
+    },
+    {
+        "Test Question": "1. Can you tell me the location of the Student Health and Wellness center?",
+        "Answer": "Minto Sports Complex \n801 King Edward Avenue, Room N203 (2nd floor)\nOttawa, Ontario K1N 6N5"
+    },
+    {
+        "Test Question": "2. What's the address of the Student Health and Wellness center?",
+        "Answer": "Minto Sports Complex \n801 King Edward Avenue, Room N203 (2nd floor)\nOttawa, Ontario K1N 6N5"
+    },
+    {
+        "Test Question": "3. I'm looking for the Student Health and Wellness center. Do you know where it is?",
+        "Answer": "Minto Sports Complex \n801 King Edward Avenue, Room N203 (2nd floor)\nOttawa, Ontario K1N 6N5"
+    },
+    {
+        "Test Question": "4. Where can I find the Student Health and Wellness center?",
+        "Answer": "Minto Sports Complex \n801 King Edward Avenue, Room N203 (2nd floor)\nOttawa, Ontario K1N 6N5"
+    },
+    {
+        "Test Question": "5. Could you direct me to the location of the Student Health and Wellness center?",
+        "Answer": "Minto Sports Complex \n801 King Edward Avenue, Room N203 (2nd floor)\nOttawa, Ontario K1N 6N5"
+    },
+    {
+        "Test Question": "1. Is there a medical clinic on campus where I can schedule a doctor's appointment?",
+        "Answer": "At the Student Health and Wellness Centre. Using the web portal, the CHR Connect mobile app, or by calling us at 613-562-5498"
+    },
+    {
+        "Test Question": "2. Can you recommend a location on campus where I can book an appointment with a doctor?",
+        "Answer": "At the Student Health and Wellness Centre. Using the web portal, the CHR Connect mobile app, or by calling us at 613-562-5498"
+    },
+    {
+        "Test Question": "3. Are there any campus health services that offer doctor's appointments?",
+        "Answer": "At the Student Health and Wellness Centre. Using the web portal, the CHR Connect mobile app, or by calling us at 613-562-5498"
+    },
+    {
+        "Test Question": "4. Could you point me in the direction of a doctor's office on campus?",
+        "Answer": "At the Student Health and Wellness Centre. Using the web portal, the CHR Connect mobile app, or by calling us at 613-562-5498"
+    },
+    {
+        "Test Question": "5. Is it possible to make an appointment with a doctor who practices on campus?",
+        "Answer": "At the Student Health and Wellness Centre. Using the web portal, the CHR Connect mobile app, or by calling us at 613-562-5498"
+    },
+    {
+        "Test Question": "1. What's the process to schedule an appointment with a psychotherapist?",
+        "Answer": "By taking an appointment at the Student Health and Wellness Centre."
+    },
+    {
+        "Test Question": "2. Is there a specific way to find and contact a psychotherapist?",
+        "Answer": "By taking an appointment at the Student Health and Wellness Centre."
+    },
+    {
+        "Test Question": "3. Can you guide me on how to connect with a psychotherapist?",
+        "Answer": "By taking an appointment at the Student Health and Wellness Centre."
+    },
+    {
+        "Test Question": "4. What steps do I need to take to see a psychotherapist?",
+        "Answer": "By taking an appointment at the Student Health and Wellness Centre."
+    },
+    {
+        "Test Question": "5. How can I go about booking a session with a psychotherapist?",
+        "Answer": "By taking an appointment at the Student Health and Wellness Centre."
+    },
+    {
+        "Test Question": "1. Is it possible to schedule an appointment at the clinic on campus?",
+        "Answer": "Using the web portal, the CHR Connect mobile app, or by calling us at 613-562-5498"
+    },
+    {
+        "Test Question": "2. What is the process for making an appointment at the campus clinic?",
+        "Answer": "Using the web portal, the CHR Connect mobile app, or by calling us at 613-562-5498"
+    },
+    {
+        "Test Question": "3. Can you tell me how to book an appointment at the clinic on campus?",
+        "Answer": "Using the web portal, the CHR Connect mobile app, or by calling us at 613-562-5498"
+    },
+    {
+        "Test Question": "4. Are there any specific requirements for booking an appointment at the campus clinic?",
+        "Answer": "Using the web portal, the CHR Connect mobile app, or by calling us at 613-562-5498"
+    },
+    {
+        "Test Question": "5. What steps do I need to take to secure an appointment at the clinic located on campus?",
+        "Answer": "Using the web portal, the CHR Connect mobile app, or by calling us at 613-562-5498"
+    },
+    {
+        "Test Question": "1. What steps do I need to take to receive academic accommodations?",
+        "Answer": "You can create an account on Ventus, and start your onboaridng process. You will be asked to upload supporting medical documentation that will then be reviewed by a learning specialist who will assist you in the process of getting your academic accomodations for your classes and/or your exams. "
+    },
+    {
+        "Test Question": "2. Is there a process for requesting academic accommodations?",
+        "Answer": "You can create an account on Ventus, and start your onboaridng process. You will be asked to upload supporting medical documentation that will then be reviewed by a learning specialist who will assist you in the process of getting your academic accomodations for your classes and/or your exams. "
+    },
+    {
+        "Test Question": "3. Who do I need to speak with to receive academic accommodations?",
+        "Answer": "You can create an account on Ventus, and start your onboaridng process. You will be asked to upload supporting medical documentation that will then be reviewed by a learning specialist who will assist you in the process of getting your academic accomodations for your classes and/or your exams. "
+    },
+    {
+        "Test Question": "4. What options are available to me for academic accommodations?",
+        "Answer": "You can create an account on Ventus, and start your onboaridng process. You will be asked to upload supporting medical documentation that will then be reviewed by a learning specialist who will assist you in the process of getting your academic accomodations for your classes and/or your exams. "
+    },
+    {
+        "Test Question": "5. Can you provide me with information on how to obtain academic accommodations?",
+        "Answer": "You can create an account on Ventus, and start your onboaridng process. You will be asked to upload supporting medical documentation that will then be reviewed by a learning specialist who will assist you in the process of getting your academic accomodations for your classes and/or your exams. "
+    },
+    {
+        "Test Question": "1. Is a doctor's note required to obtain academic accommodations?",
+        "Answer": "Yes you will need supporting medical documentations."
+    },
+    {
+        "Test Question": "2. Do I have to provide a doctor's note to receive academic accommodations?",
+        "Answer": "Yes you will need supporting medical documentations."
+    },
+    {
+        "Test Question": "3. Must I obtain a medical letter to be eligible for academic accommodations?",
+        "Answer": "Yes you will need supporting medical documentations."
+    },
+    {
+        "Test Question": "4. Is it necessary to have a physician's documentation for academic accommodations?",
+        "Answer": "Yes you will need supporting medical documentations."
+    },
+    {
+        "Test Question": "5. Can I receive academic accommodations without a doctor's note?",
+        "Answer": "Yes you will need supporting medical documentations."
+    },
+    {
+        "Test Question": "1. Is HIV testing available at uOttawa?",
+        "Answer": "For HIV testing, the University of Ottawa, in partnership with Somerset West Community Health Centre,  offers free weekly rapid anonymous HIV testing on Wednesdays between 12pm-3pm. "
+    },
+    {
+        "Test Question": "2. Can I get tested for HIV at uOttawa?",
+        "Answer": "For HIV testing, the University of Ottawa, in partnership with Somerset West Community Health Centre,  offers free weekly rapid anonymous HIV testing on Wednesdays between 12pm-3pm. "
+    },
+    {
+        "Test Question": "3. Does uOttawa offer HIV testing services?",
+        "Answer": "For HIV testing, the University of Ottawa, in partnership with Somerset West Community Health Centre,  offers free weekly rapid anonymous HIV testing on Wednesdays between 12pm-3pm. "
+    },
+    {
+        "Test Question": "4. Are HIV tests conducted at uOttawa?",
+        "Answer": "For HIV testing, the University of Ottawa, in partnership with Somerset West Community Health Centre,  offers free weekly rapid anonymous HIV testing on Wednesdays between 12pm-3pm. "
+    },
+    {
+        "Test Question": "5. Is it possible to receive HIV testing at uOttawa?",
+        "Answer": "For HIV testing, the University of Ottawa, in partnership with Somerset West Community Health Centre,  offers free weekly rapid anonymous HIV testing on Wednesdays between 12pm-3pm. "
+    },
+    {
+        "Test Question": "1. Is it possible for me to schedule an appointment for my mental health on campus?",
+        "Answer": "By taking an appointment at the Student Health and WellnessCcentre."
+    },
+    {
+        "Test Question": "2. What is the process for booking a mental health appointment on campus?",
+        "Answer": "By taking an appointment at the Student Health and WellnessCcentre."
+    },
+    {
+        "Test Question": "3. Can you guide me through the steps to arrange a mental health appointment on campus?",
+        "Answer": "By taking an appointment at the Student Health and WellnessCcentre."
+    },
+    {
+        "Test Question": "4. Are there any specific requirements I need to meet in order to schedule a mental health appointment on campus?",
+        "Answer": "By taking an appointment at the Student Health and WellnessCcentre."
+    },
+    {
+        "Test Question": "5. Who should I contact in order to schedule a mental health appointment on campus?",
+        "Answer": "By taking an appointment at the Student Health and WellnessCcentre."
+    },
+    {
+        "Test Question": "1. Can you provide me with the phone number for the campus clinic?",
+        "Answer": "613-562-5498"
+    },
+    {
+        "Test Question": "2. How can I get in touch with the clinic on campus by phone?",
+        "Answer": "613-562-5498"
+    },
+    {
+        "Test Question": "3. What is the phone number for the clinic located on campus grounds?",
+        "Answer": "613-562-5498"
+    },
+    {
+        "Test Question": "4. Is there a phone number I can call to reach the clinic on campus?",
+        "Answer": "613-562-5498"
+    },
+    {
+        "Test Question": "5. Could you tell me the contact number for the campus clinic, please?",
+        "Answer": "613-562-5498"
+    },
+    {
+        "Test Question": "1. What are the current operating hours for the clinic located on campus?",
+        "Answer": "Fall and winter hours of operations\n\nMonday: 8 am to 4 pm\nTuesday: 8 am to 4 pm \nWednesday: 8 am to 4 pm\nThursday: 8 am to 4 pm\nFriday: 8 am to 4 pm\nSaturday: 9 am to 2 pm \nSunday: Closed"
+    },
+    {
+        "Test Question": "2. Can you tell me if the clinic on campus is open at the moment?",
+        "Answer": "Fall and winter hours of operations\n\nMonday: 8 am to 4 pm\nTuesday: 8 am to 4 pm \nWednesday: 8 am to 4 pm\nThursday: 8 am to 4 pm\nFriday: 8 am to 4 pm\nSaturday: 9 am to 2 pm \nSunday: Closed"
+    },
+    {
+        "Test Question": "3. Is there any information on whether the campus clinic is currently open?",
+        "Answer": "Fall and winter hours of operations\n\nMonday: 8 am to 4 pm\nTuesday: 8 am to 4 pm \nWednesday: 8 am to 4 pm\nThursday: 8 am to 4 pm\nFriday: 8 am to 4 pm\nSaturday: 9 am to 2 pm \nSunday: Closed"
+    },
+    {
+        "Test Question": "4. Could you confirm whether or not the clinic on campus is currently open?",
+        "Answer": "Fall and winter hours of operations\n\nMonday: 8 am to 4 pm\nTuesday: 8 am to 4 pm \nWednesday: 8 am to 4 pm\nThursday: 8 am to 4 pm\nFriday: 8 am to 4 pm\nSaturday: 9 am to 2 pm \nSunday: Closed"
+    },
+    {
+        "Test Question": "5. At this moment, is it possible to visit the clinic located on campus?",
+        "Answer": "Fall and winter hours of operations\n\nMonday: 8 am to 4 pm\nTuesday: 8 am to 4 pm \nWednesday: 8 am to 4 pm\nThursday: 8 am to 4 pm\nFriday: 8 am to 4 pm\nSaturday: 9 am to 2 pm \nSunday: Closed"
+    },
+    {
+        "Test Question": "1. Can you explain the concept of case management?",
+        "Answer": "The Student Support team offers non-clinical case management services to students with complex needs at the University of Ottawa."
+    },
+    {
+        "Test Question": "2. How would you define case management?",
+        "Answer": "The Student Support team offers non-clinical case management services to students with complex needs at the University of Ottawa."
+    },
+    {
+        "Test Question": "3. What does the term case management refer to?",
+        "Answer": "The Student Support team offers non-clinical case management services to students with complex needs at the University of Ottawa."
+    },
+    {
+        "Test Question": "4. Could you give me an overview of case management?",
+        "Answer": "The Student Support team offers non-clinical case management services to students with complex needs at the University of Ottawa."
+    },
+    {
+        "Test Question": "5. In simple terms, what is case management?",
+        "Answer": "The Student Support team offers non-clinical case management services to students with complex needs at the University of Ottawa."
+    },
+    {
+        "Test Question": "1. Can you tell me about the uoWellness app?",
+        "Answer": "The uoWellness app is a one-stop solution for health and wellness designed by students, for students, and tailored to university life. The app helps make your wellness journey simpler and engaging. "
+    },
+    {
+        "Test Question": "2. What are the features of the uoWellness app?",
+        "Answer": "The uoWellness app is a one-stop solution for health and wellness designed by students, for students, and tailored to university life. The app helps make your wellness journey simpler and engaging. "
+    },
+    {
+        "Test Question": "3. How does the uoWellness app work?",
+        "Answer": "The uoWellness app is a one-stop solution for health and wellness designed by students, for students, and tailored to university life. The app helps make your wellness journey simpler and engaging. "
+    },
+    {
+        "Test Question": "4. Is the uoWellness app designed for a specific audience?",
+        "Answer": "The uoWellness app is a one-stop solution for health and wellness designed by students, for students, and tailored to university life. The app helps make your wellness journey simpler and engaging. "
+    },
+    {
+        "Test Question": "5. What benefits can I expect from using the uoWellness app?",
+        "Answer": "The uoWellness app is a one-stop solution for health and wellness designed by students, for students, and tailored to university life. The app helps make your wellness journey simpler and engaging. "
+    },
+    {
+        "Test Question": "1. What's the cost of a doctor's appointment at the student health and wellness center?",
+        "Answer": "The Health fee to acess the centre is already included in your tuition and gives you access to the centre. Most services are provided free of charge but some services that are not covered by OHIP or UHIP might involve a fee: https://www.uottawa.ca/campus-life/health-wellness/student-health-wellness-centre/fees-not-covered"
+    },
+    {
+        "Test Question": "2. Can you tell me the price of a doctor's appointment at the student health and wellness center?",
+        "Answer": "The Health fee to acess the centre is already included in your tuition and gives you access to the centre. Most services are provided free of charge but some services that are not covered by OHIP or UHIP might involve a fee: https://www.uottawa.ca/campus-life/health-wellness/student-health-wellness-centre/fees-not-covered"
+    },
+    {
+        "Test Question": "3. How much do I need to pay for a doctor's appointment at the student health and wellness center?",
+        "Answer": "The Health fee to acess the centre is already included in your tuition and gives you access to the centre. Most services are provided free of charge but some services that are not covered by OHIP or UHIP might involve a fee: https://www.uottawa.ca/campus-life/health-wellness/student-health-wellness-centre/fees-not-covered"
+    },
+    {
+        "Test Question": "4. What is the fee for a doctor's appointment at the student health and wellness center?",
+        "Answer": "The Health fee to acess the centre is already included in your tuition and gives you access to the centre. Most services are provided free of charge but some services that are not covered by OHIP or UHIP might involve a fee: https://www.uottawa.ca/campus-life/health-wellness/student-health-wellness-centre/fees-not-covered"
+    },
+    {
+        "Test Question": "5. Could you inform me of the charge for a doctor's appointment at the student health and wellness center?",
+        "Answer": "The Health fee to acess the centre is already included in your tuition and gives you access to the centre. Most services are provided free of charge but some services that are not covered by OHIP or UHIP might involve a fee: https://www.uottawa.ca/campus-life/health-wellness/student-health-wellness-centre/fees-not-covered"
+    },
+    {
+        "Test Question": "1. Is the student health and wellness center covered by my insurance policy?",
+        "Answer": "Most services are provided free of charge but some services that are not covered by OHIP or UHIP might involve a fee: https://www.uottawa.ca/campus-life/health-wellness/student-health-wellness-centre/fees-not-covered"
+    },
+    {
+        "Test Question": "2. Will I be reimbursed for my visits to the student health and wellness center under my insurance plan?",
+        "Answer": "Most services are provided free of charge but some services that are not covered by OHIP or UHIP might involve a fee: https://www.uottawa.ca/campus-life/health-wellness/student-health-wellness-centre/fees-not-covered"
+    },
+    {
+        "Test Question": "3. Does the insurance policy I have include coverage for appointments at the student health and wellness center?",
+        "Answer": "Most services are provided free of charge but some services that are not covered by OHIP or UHIP might involve a fee: https://www.uottawa.ca/campus-life/health-wellness/student-health-wellness-centre/fees-not-covered"
+    },
+    {
+        "Test Question": "4. Can I use my insurance for appointments at the student health and wellness center?",
+        "Answer": "Most services are provided free of charge but some services that are not covered by OHIP or UHIP might involve a fee: https://www.uottawa.ca/campus-life/health-wellness/student-health-wellness-centre/fees-not-covered"
+    },
+    {
+        "Test Question": "5. Am I eligible for insurance coverage for appointments at the student health and wellness center?",
+        "Answer": "Most services are provided free of charge but some services that are not covered by OHIP or UHIP might involve a fee: https://www.uottawa.ca/campus-life/health-wellness/student-health-wellness-centre/fees-not-covered"
+    },
+    {
+        "Test Question": "1. Is there a drugstore located within the premises of the campus?",
+        "Answer": "There is a pharmacy on campus that is located at 100 Marie Curie Pvt. Ottawa"
+    },
+    {
+        "Test Question": "2. Can you tell me if there's a pharmacy available nearby the campus area?",
+        "Answer": "There is a pharmacy on campus that is located at 100 Marie Curie Pvt. Ottawa"
+    },
+    {
+        "Test Question": "3. Do you know of any places on campus where I can purchase medication?",
+        "Answer": "There is a pharmacy on campus that is located at 100 Marie Curie Pvt. Ottawa"
+    },
+    {
+        "Test Question": "4. Where can I find a pharmacy around the campus vicinity?",
+        "Answer": "There is a pharmacy on campus that is located at 100 Marie Curie Pvt. Ottawa"
+    },
+    {
+        "Test Question": "5. Is it possible to obtain medication from a pharmacy on the campus grounds?",
+        "Answer": "There is a pharmacy on campus that is located at 100 Marie Curie Pvt. Ottawa"
+    },
+    {
+        "Test Question": "1. What is the process for signing up for wellness workshops?",
+        "Answer": "You can register for most of our workshops or services either through our webiste or on the uoWellness app."
+    },
+    {
+        "Test Question": "2. Can you guide me through the registration process for wellness workshops?",
+        "Answer": "You can register for most of our workshops or services either through our webiste or on the uoWellness app."
+    },
+    {
+        "Test Question": "3. Where can I find information on registering for wellness workshops?",
+        "Answer": "You can register for most of our workshops or services either through our webiste or on the uoWellness app."
+    },
+    {
+        "Test Question": "4. Is there a specific website or portal I need to use to register for wellness workshops?",
+        "Answer": "You can register for most of our workshops or services either through our webiste or on the uoWellness app."
+    },
+    {
+        "Test Question": "5. Are there any requirements or prerequisites for registering for wellness workshops?",
+        "Answer": "You can register for most of our workshops or services either through our webiste or on the uoWellness app."
+    },
+    {
+        "Test Question": "1. What is the fee for obtaining academic accommodations?",
+        "Answer": "Nothing, academic accomodations altough some of the medical documentations needed might involve a fee at your doctor's office."
+    },
+    {
+        "Test Question": "2. Can you tell me the cost of academic accommodations?",
+        "Answer": "Nothing, academic accomodations altough some of the medical documentations needed might involve a fee at your doctor's office."
+    },
+    {
+        "Test Question": "3. How much money do I need to pay for academic accommodations?",
+        "Answer": "Nothing, academic accomodations altough some of the medical documentations needed might involve a fee at your doctor's office."
+    },
+    {
+        "Test Question": "4. Is there a charge for academic accommodations?",
+        "Answer": "Nothing, academic accomodations altough some of the medical documentations needed might involve a fee at your doctor's office."
+    },
+    {
+        "Test Question": "5. What is the price of getting academic accommodations?",
+        "Answer": "Nothing, academic accomodations altough some of the medical documentations needed might involve a fee at your doctor's office."
+    },
+    {
+        "Test Question": "1. Is it possible to have blood work done on campus?",
+        "Answer": "Yes, you can have bloodwork done atvthe Student Health and Wellness Centre."
+    },
+    {
+        "Test Question": "2. Are there facilities on campus where I can have blood work done?",
+        "Answer": "Yes, you can have bloodwork done atvthe Student Health and Wellness Centre."
+    },
+    {
+        "Test Question": "3. Can I visit a medical center on campus to get blood work done?",
+        "Answer": "Yes, you can have bloodwork done atvthe Student Health and Wellness Centre."
+    },
+    {
+        "Test Question": "4. Is there a lab on campus where I can have blood work done?",
+        "Answer": "Yes, you can have bloodwork done atvthe Student Health and Wellness Centre."
+    },
+    {
+        "Test Question": "5. Are blood tests available on campus?",
+        "Answer": "Yes, you can have bloodwork done atvthe Student Health and Wellness Centre."
+    }
+]

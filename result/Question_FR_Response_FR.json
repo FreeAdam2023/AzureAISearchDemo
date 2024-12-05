@@ -1,0 +1,78 @@
+[
+    {
+        "Question FR":"Où se trouve le salon du mieux-être ?",
+        "Expected Response FR":"Dans UCU203 et UCU205"
+    },
+    {
+        "Question FR":"Où se trouve le Centre de santé et de mieux-être des étudiants ?",
+        "Expected Response FR":"Complexe sportif Minto 801, avenue King Edward, salle N203 (2e étage) Ottawa, Ontario K1N 6N5"
+    },
+    {
+        "Question FR":"Où puis-je prendre rendez-vous avec un médecin sur le campus ?",
+        "Expected Response FR":"Au Centre de santé et de mieux-être étudiant. En utilisant le portail web, l'application mobile CHR Connect ou en nous appelant au 613-562-5498"
+    },
+    {
+        "Question FR":"Comment puis-je rencontrer un psychothérapeute ?",
+        "Expected Response FR":"En prenant rendez-vous au Centre de santé et de mieux-être étudiant."
+    },
+    {
+        "Question FR":"Comment puis-je prendre rendez-vous à la clinique sur le campus ?",
+        "Expected Response FR":"En utilisant le portail web, l'application mobile CHR Connect ou en nous appelant au 613-562-5498"
+    },
+    {
+        "Question FR":"Comment puis-je obtenir des accommodements scolaires ?",
+        "Expected Response FR":"Vous pouvez créer un compte sur Ventus et commencer votre processus d'intégration. Vous devrez télécharger des documents médicaux justificatifs qui seront ensuite examinés par un spécialiste en apprentissage qui vous aidera dans le processus d'obtention de vos accommodements académiques pour vos cours et\/ou vos examens."
+    },
+    {
+        "Question FR":"Ai-je besoin d'un certificat médical pour obtenir des accommodements scolaires ?",
+        "Expected Response FR":"Oui, vous aurez besoin de documents médicaux justificatifs."
+    },
+    {
+        "Question FR":"L'Université d'Ottawa fait-elle des tests de dépistage du VIH ?",
+        "Expected Response FR":"Pour le dépistage du VIH, l'Université d'Ottawa, en partenariat avec le Centre de santé communautaire Somerset Ouest, offre des tests de dépistage anonyme rapide gratuits chaque semaine les mercredis entre 12h et 15h."
+    },
+    {
+        "Question FR":"Comment puis-je obtenir un rendez-vous pour ma santé mentale sur le campus ?",
+        "Expected Response FR":"En prenant rendez-vous au Centre de santé et de mieux-être étudiant."
+    },
+    {
+        "Question FR":"Quel est le numéro de téléphone de la clinique sur le campus ?",
+        "Expected Response FR":"613-562-5498"
+    },
+    {
+        "Question FR":"La clinique sur le campus est-elle ouverte en ce moment ?",
+        "Expected Response FR":"Heures d'ouverture d'automne et d'hiver\nLundi : 8 h à  16 h\nMardi : 8 h à  16 h\nMercredi : 8 h à  16 h\nJeudi : 8 h à  16 h\nVendredi : 8 h à  16 h\nSamedi : 9 h à  14 h\nDimanche : Fermé"
+    },
+    {
+        "Question FR":"Qu'est-ce que la gestion de cas ?",
+        "Expected Response FR":"L'équipe de soutien aux étudiants offre des services de gestion de cas non cliniques aux étudiants ayant des besoins complexes à  l'Université d'Ottawa."
+    },
+    {
+        "Question FR":"Qu'est-ce que l'application uoMieux-être ?",
+        "Expected Response FR":"L'application uoWellness est une solution unique pour la santé et le mieux-être conà§ue par des étudiants, pour des étudiants, et adaptée à  la vie universitaire. L'application facilite votre parcours mieux-être et le rend plus engageant."
+    },
+    {
+        "Question FR":"Combien coûte une consultation médicale au Centre de santé et de mieux-être des étudiants ?",
+        "Expected Response FR":"Les frais de santé pour accéder au centre sont déjà  inclus dans vos frais de scolarité et vous donnent accès au centre. La plupart des services sont offerts gratuitement, mais certains services non couverts par l'OHIP ou l'UHIP peuvent entraà®ner des frais : https:\/\/www.uottawa.ca\/campus-life\/health-wellness\/student-health-wellness-centre\/fees-not-covered"
+    },
+    {
+        "Question FR":"Mon assurance couvre-t-elle les consultations au Centre de santé et de mieux-être des étudiants ?",
+        "Expected Response FR":"La plupart des services sont offerts gratuitement, mais certains services non couverts par l'OHIP ou l'UHIP peuvent entraà®ner des frais : https:\/\/www.uottawa.ca\/campus-life\/health-wellness\/student-health-wellness-centre\/fees-not-covered"
+    },
+    {
+        "Question FR":"Y a-t-il une pharmacie sur le campus ?",
+        "Expected Response FR":"Il y a une pharmacie sur le campus située au 100, privé Marie Curie, Ottawa"
+    },
+    {
+        "Question FR":"Comment puis-je m'inscrire aux ateliers de mieux-être ?",
+        "Expected Response FR":"Vous pouvez vous inscrire à  la plupart de nos ateliers ou services soit via notre site web soit sur l'application uoWellness."
+    },
+    {
+        "Question FR":"Combien coûte l'obtention d'accommodements scolaires ?",
+        "Expected Response FR":"Rien, les accommodements académiques bien que certains des documents médicaux nécessaires peuvent entraà®ner des frais dans le cabinet de votre médecin."
+    },
+    {
+        "Question FR":"Puis-je faire des analyses de sang sur le campus ?",
+        "Expected Response FR":"Oui, vous pouvez faire des analyses de sang au Centre de santé et de mieux-être étudiant."
+    }
+]
