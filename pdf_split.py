@@ -12,3 +12,6 @@ for page_num in range(len(pdf_reader.pages)):
     # 保存单页 PDF 文件
     with open(f"output_page_{page_num + 1}.pdf", "wb") as output_pdf:
         pdf_writer.write(output_pdf)
+
+
+

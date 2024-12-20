@@ -182,13 +182,13 @@ class QnAHelper:
 
     def process_json_to_tsv(self, input_json_path, output_tsv_path, max_alternates=5):
         """
-        处理 JSON 文件，生成符合上传文件格式的 TSV 文件。
-        :param input_json_path: 输入的 JSON 文件路径
-        :param output_tsv_path: 输出的 TSV 文件路径
-        :param max_alternates: 替代问题的最大数量
+        Process a JSON file and generate a TSV file that meets the upload file format.
+        :param input_json_path: Path to the input JSON file
+        :param output_tsv_path: Path to the output TSV file
+        :param max_alternates: Maximum number of alternate questions
         """
         try:
-            # 读取 JSON 文件
+            # Read the JSON file
             with open(input_json_path, "r", encoding="utf-8") as infile:
                 data = json.load(infile)
 
@@ -200,15 +200,15 @@ class QnAHelper:
                     continue
                 answer = item.get("Expected Response EN") or item.get("Expected Response FR")
                 if answer:
-                    answer = answer.replace("\n", " ").strip()  # 替换换行符为单个空格
+                    answer = answer.replace("\n", " ").strip()  # Replace newlines with a single space
 
-                # 生成替代问题
+                # Generate alternate questions
                 alternate_questions = self.generate_alternate_questions(original_question, n=max_alternates)
 
-                # 生成同义词
+                # Generate synonyms
                 synonyms = self.generate_synonyms(original_question)
 
-                # 生成 Metadata
+                # Generate Metadata
                 metadata = self.generate_metadata(original_question, answer)
                 metadata_str = "|".join([f"{key}:{value}" for key, value in metadata.items()])
 
@@ -223,7 +223,7 @@ class QnAHelper:
                         "Prompts": "[]",
                     })
 
-            # 保存为 TSV 文件
+            # Save as TSV file
             with open(output_tsv_path, "w", encoding="utf-8", newline="") as tsvfile:
                 fieldnames = [
                     "Question", "Answer", "Source", "Metadata",

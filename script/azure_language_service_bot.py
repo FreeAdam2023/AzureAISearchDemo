@@ -53,10 +53,10 @@ class AzureLanguageServiceBot:
             "filters": {
                 "metadataFilter": {
                     "logicalOperation": "OR",
-                    "metadata": []
                 }
             }
         }
+        api_url = f"{self.base_url}/language/:query-knowledgebases"
         params = {
             "projectName": self.project_name,
             "api-version": "2021-10-01",
@@ -65,7 +65,7 @@ class AzureLanguageServiceBot:
 
         try:
             # 发送 POST 请求
-            response = requests.post(self.api_url, headers=self.headers, params=params, json=payload)
+            response = requests.post(api_url, headers=self.headers, params=params, json=payload)
             response.raise_for_status()
             response_data = response.json()
             return response_data.get("answers", [])
@@ -159,9 +159,39 @@ if __name__ == "__main__":
                 "Match": "Yes" if match else "No",
             })
 
+    knowledge_outside_questions = [
+        "What is the best restaurant near the campus?",
+        "How do I rent a bike in Ottawa?",
+        "What is the weather today?",
+        "Where can I find the nearest library?",
+        "Are there any hiking trails close to the campus?",
+        "How do I apply for a parking permit in Ottawa?",
+        "What are the opening hours of the nearest grocery store?",
+        "How do I join a local sports team?",
+        "Where can I buy public transport tickets in Ottawa?",
+        "What is the best way to get to downtown Ottawa from campus?"
+    ]
+
+    # 存储测试问题结果
+    outside_results = []
+
+    for test_question_data in knowledge_outside_questions:
+        test_question = test_question_data
+        answers = bot.ask_question(test_question, top=1)
+
+        for answer in answers:
+            metadata_str = json.dumps(answer.get("metadata", {}))  # 转为字符串以存储
+            confidence_score = round(answer.get("confidenceScore", 0), 2)  # 保留 2 位小数
+            outside_results.append({
+                "Test Question": test_question,
+                "Bot Answer": answer["answer"],
+                "Confidence Score": confidence_score,
+            })
+
     # 将主问题结果和测试问题结果保存到 Excel 文件
     with pd.ExcelWriter(OUTPUT_PATH, engine="xlsxwriter") as writer:
         pd.DataFrame(main_results).to_excel(writer, index=False, sheet_name="Main Questions")
         pd.DataFrame(test_results).to_excel(writer, index=False, sheet_name="Test Questions")
+        pd.DataFrame(outside_results).to_excel(writer, index=False, sheet_name="Outside Questions")
 
     print(f"Results saved to {OUTPUT_PATH}")
