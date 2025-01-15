@@ -6,7 +6,7 @@
 import json
 
 # 定义输入和输出文件路径
-input_file_path = 'NewCLU_Testing.json'
+input_file_path = '../typescriptdemo/NewCLU_Testing.json'
 output_file_path = 'NewCLU_Testing_modified.json'
 
 # 读取 JSON 文件
