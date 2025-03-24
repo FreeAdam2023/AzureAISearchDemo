@@ -1,0 +1,63 @@
+{
+    "projectFileVersion": "2022-05-01",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0
+        },
+        "projectName": "TestMedicalExactMatch",
+        "multilingual": false,
+        "description": "Testing requireExactOverlap for precise medical term matching",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "ReportDiagnosis"
+            }
+        ],
+        "entities": [
+            {
+                "category": "MedicalConditions",
+                "compositionSetting": "requireExactOverlap",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "Cardiovascular Conditions",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "acute myocardial infarction",
+                                        "chronic heart failure",
+                                        "unstable angina"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "utterances": [
+            {
+                "text": "The patient shows signs of acute myocardial infarction.",
+                "intent": "ReportDiagnosis",
+                "entities": [
+                    {
+                        "category": "MedicalConditions",
+                        "offset": 27,
+                        "length": 27
+                    }
+                ]
+            },
+            {
+                "text": "The patient shows signs of myocardial infarction.",
+                "intent": "ReportDiagnosis",
+                "entities": []
+            }
+        ]
+    }
+}

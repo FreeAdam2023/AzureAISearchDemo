@@ -1,0 +1,64 @@
+{
+    "projectFileVersion": "2022-05-01",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0
+        },
+        "projectName": "TestMedicalSymptomsCompositionSettings",
+        "multilingual": false,
+        "description": "Testing combineComponents with medical symptoms",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "ReportSymptoms"
+            }
+        ],
+        "entities": [
+            {
+                "category": "MedicalSymptoms",
+                "compositionSetting": "combineComponents",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "Cardiovascular Issues",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "chest tightness",
+                                        "tightness in the chest",
+                                        "chest pain",
+                                        "pain in the chest"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "utterances": [
+            {
+                "text": "The patient is experiencing chest tightness and shortness of breath.",
+                "intent": "ReportSymptoms",
+                "entities": [
+                    {
+                        "category": "MedicalSymptoms",
+                        "offset": 27,
+                        "length": 15
+                    },
+                    {
+                        "category": "MedicalSymptoms",
+                        "offset": 47,
+                        "length": 19
+                    }
+                ]
+            }
+        ]
+    }
+}

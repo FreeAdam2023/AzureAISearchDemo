@@ -1,0 +1,142 @@
+{
+	"projectFileVersion": "2022-05-01",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0
+        },
+        "projectName": "SHWSChatbot",
+        "multilingual": false,
+        "description": "",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "AskGeneralQuestions"
+            },
+		    {
+                "category": "GetMedicalInfo"
+            },
+            {
+                "category": "BookAppointment"
+            },
+            {
+                "category": "ConsultAppointment"
+            },
+            {
+                "category": "CancelAppointment"
+            },
+            {
+                "category": "ModifyAppointment"
+            },
+			{
+                "category": "Greetings"
+            }
+        ],
+        "entities": [
+            {
+                "category": "Cardio.Combine",
+                "compositionSetting": "combineComponents",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "chest pain",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+					                "cardiovascular",
+					                "chest",
+								    "palpitation",
+                                        "hypertension",
+                                        "tension",
+								    "high blood pressure",
+								    "diabetes"
+                                    ]
+                                }
+                            ]
+                        }
+					]
+				}
+			},
+            {
+                "category": "Cardio.ExactOverlap",
+                "compositionSetting": "requireExactOverlap",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "chest pain",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+					                "cardiovascular",
+					                "chest",
+								    "palpitation",
+                                        "hypertension",
+                                        "tension",
+								    "high blood pressure",
+								    "diabetes"
+                                    ]
+                                }
+                            ]
+                        }
+					]
+				}
+			},
+            {
+                "category": "Cardio.LongestOverlap",
+                "compositionSetting": "returnLongestOverlap",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "chest pain",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+					                "cardiovascular",
+					                "chest",
+								    "palpitation",
+                                        "hypertension",
+                                        "tension",
+								    "high blood pressure",
+								    "diabetes"
+                                    ]
+                                }
+                            ]
+                        }
+					]
+				}
+			},
+            {
+                "category": "Cardio.Separate",
+                "compositionSetting": "separateComponents",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "chest pain",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+					                "cardiovascular",
+					                "chest",
+								    "palpitation",
+                                        "hypertension",
+                                        "tension",
+								    "high blood pressure",
+								    "diabetes"
+                                    ]
+                                }
+                            ]
+                        }
+					]
+				}
+			}
+        ]
+    }
+}

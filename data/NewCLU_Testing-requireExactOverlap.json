@@ -1,0 +1,745 @@
+ {
+	"projectFileVersion": "2022-05-01",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0
+        },
+        "projectName": "SHWSChatbot",
+        "multilingual": false,
+        "description": "",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "AskGeneralQuestions"
+            },
+		    {
+                "category": "GetMedicalInfo"
+            },
+            {
+                "category": "BookAppointment"
+            },
+            {
+                "category": "ConsultAppointment"
+            },
+            {
+                "category": "CancelAppointment"
+            },
+            {
+                "category": "ModifyAppointment"
+            },
+			{
+                "category": "Greetings"
+            }
+        ],
+        "entities": [
+            {
+                "category": "AppointPresentIssue.Cardiovascular",
+                "compositionSetting": "requireExactOverlap",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "chest pain",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+									    "cardiovascular",
+									    "chest",
+										"palpitation",
+                                        "hypertension",
+                                        "tension",
+										"high blood pressure",
+										"diabetes"
+                                    ]
+                                }
+                            ]
+                        }
+					]
+				}
+			},	
+            {
+                "category": "AppointPresentIssue.Digestive",
+                "compositionSetting": "requireExactOverlap",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "abdominal",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "rectal",
+                                        "colon",
+                                        "nausea",
+										"vomiting",
+										"diarrhea",
+										"constipation",
+										"gastrointestinal"
+                                    ]
+                                }
+                            ]
+                        }
+					]
+				}
+			},	
+			{
+                "category": "AppointPresentIssue.UrinaryReprod",
+                "compositionSetting": "requireExactOverlap",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "urinary",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "reproductive",
+                                        "bladder infection",
+                                        "UTI",
+										"urine",
+										"infection",
+										"burning sensation",
+										"penis",
+										"vagina",
+										"testicle",
+										"breast"
+                                    ]
+                                }
+                            ]
+                        }
+					]
+				}
+			},				
+			{
+                "category": "AppointPresentIssue.Skin",
+                "compositionSetting": "requireExactOverlap",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "skin",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                       "redness",
+                                        "redness",
+                                        "rash",
+										"pimple",
+										"itchiness",
+										"hives",
+										"skin eruption",
+										"bumps",
+										"lumps",
+										"calluses"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+			},
+			{
+                "category": "AppointPresentIssue.Contraceptive",
+                "compositionSetting": "requireExactOverlap",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "contraception",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "pill",
+                                        "pills",
+                                        "IUD",
+										"implant"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+			},
+			{
+                "category": "AppointPresentIssue.Weakness",
+                "compositionSetting": "requireExactOverlap",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "weakness",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                       "fatigue",
+                                        "vertigo",
+                                        "light-headedness",
+										"LOC",
+										"loss of consciousness"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+			},
+			{
+                "category": "AppointPresentIssue.Ear",
+                "compositionSetting": "requireExactOverlap",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "ear",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                       "irrigation",
+                                        "wash",
+                                        "otitis"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+			},
+			{
+                "category": "AppointPresentIssue.Neuro",
+                "compositionSetting": "requireExactOverlap",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "head injury",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                       "neuro",
+                                        "brain",
+                                        "head injury",
+										"concussion",
+										"nose",
+										"dental",
+										"mouth",
+										"face"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+			},
+			{
+                "category": "AppointPresentIssue.Respiration",
+                "compositionSetting": "requireExactOverlap",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "Breath",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                       "respiration",
+                                        "lungs",
+                                        "throat",
+										"cough",
+										"cold",
+										"flu",
+										"fever"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+			},
+			{
+				"category": "AppointCat.PhysicalHealth",
+                "compositionSetting": "requireExactOverlap",
+                "list": {
+                    "sublists": [
+                        {												
+							"listKey": "skin",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                       "redness",
+                                        "redness",
+                                        "rash",
+										"pimple",
+										"itchiness",
+										"hives",
+										"skin eruption",
+										"bumps",
+										"lumps",
+										"calluses"
+                                   ]
+								   
+                                }
+							]
+						},	
+						{				
+                            "listKey": "body",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "pain",
+                                        "tired",
+										"sore"
+                                   ]
+                                }
+                            ]
+                        },
+						{				
+                            "listKey": "chest pain",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "palpitation",
+                                        "hypertension",
+										"tension"
+                                   ]
+                                }
+                            ]
+                        }
+					]
+				}
+			}
+         ],		  
+  		"utterances": [	
+            {
+                "text": "hey",
+                "intent": "Greetings",
+                "entities": []
+            },
+            {
+                "text": "hey again",
+                "intent": "Greetings",
+                "entities": []
+            },
+			{
+                "text": "What’s up",
+                "intent": "Greetings",
+                "entities": []
+            },
+			{
+                "text": "Hey, it’s great to talk to you",
+                "intent": "Greetings",
+                "entities": []
+            },
+			{
+                "text": "Good to see you",
+                "intent": "Greetings",
+                "entities": []
+            },
+			{
+                "text": "Good morning, I’d like to ask a question",
+                "intent": "AskGeneralQuestions",
+                "entities": []
+            },
+			{
+			   "text": "I am not feeling well",
+                "intent": "AskGeneralQuestions",
+                "entities": []
+			},
+			{
+			   "text": "I have a health concern",
+                "intent": "AskGeneralQuestions",
+                "entities": []
+			},
+			{
+			   "text": "I need to talk to someone about my health",
+                "intent": "AskGeneralQuestions",
+                "entities": []
+			},
+			{
+				"text": "I have some palpitation",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointCat.PhysicalHealth",
+                        "offset": 12,
+                        "length": 11
+                    },
+					 {
+                        "category": "AppointPresentIssue.Cardiovascular",
+                        "offset": 12,
+                        "length": 11
+					}
+				]
+			},
+			{
+				"text": "I feel some pain in my chest",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointCat.PhysicalHealth",
+                        "offset": 23,
+                        "length": 5
+                    },
+					 {
+                        "category": "AppointPresentIssue.Cardiovascular",
+                        "offset": 23,
+                        "length": 5
+					}
+				]
+			},
+			{
+				"text": "I think there is something wrong with my tension",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointCat.PhysicalHealth",
+                        "offset": 41,
+                        "length": 7
+                    },
+					 {
+                        "category": "AppointPresentIssue.Cardiovascular",
+                        "offset": 41,
+                        "length": 7
+					}
+				]
+			},
+			{
+				"text": "I am feeling some chest pain since a few days",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointCat.PhysicalHealth",
+                        "offset": 18,
+                        "length": 10
+                    },
+					 {
+                        "category": "AppointPresentIssue.Cardiovascular",
+                        "offset": 18,
+                        "length": 10
+					}
+				]
+			},
+			{
+				"text": "My tension is probably way too high",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointCat.PhysicalHealth",
+                        "offset": 3,
+                        "length": 7
+                    },
+					 {
+                        "category": "AppointPresentIssue.Cardiovascular",
+                        "offset": 3,
+                        "length": 7
+					}
+				]
+			},
+			{
+				"text": "I have been suffering from cardiovascular disease for years",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointCat.PhysicalHealth",
+                        "offset": 27,
+                        "length": 14
+                    },
+					 {
+                        "category": "AppointPresentIssue.Cardiovascular",
+                        "offset": 27,
+                        "length": 14
+					}
+				]
+			},
+			{
+				"text" : "I suffer from chronic hypertension",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointCat.PhysicalHealth",
+                        "offset": 14,
+                        "length": 12
+                    },
+					 {
+                        "category": "AppointPresentIssue.Cardiovascular",
+                        "offset": 14,
+                        "length": 12
+					}
+				]
+			},
+			{
+				"text" : "I would like someone to check my blood pressure because I do not feel well",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointCat.PhysicalHealth",
+                        "offset": 33,
+                        "length": 14
+                    },
+					 {
+                        "category": "AppointPresentIssue.Cardiovascular",
+                        "offset": 33,
+                        "length": 14
+					}
+				]
+			},
+			{
+				"text" : "I am wondering if my blood pressure is normal",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointCat.PhysicalHealth",
+                        "offset": 21,
+                        "length": 14
+                    },
+					 {
+                        "category": "AppointPresentIssue.Cardiovascular",
+                        "offset": 21,
+                        "length": 14
+					}
+				]
+			},
+			{
+				"text" : "I have lived with diabetes for most of my life",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointCat.PhysicalHealth",
+                        "offset": 18,
+                        "length": 8
+                    },
+					 {
+                        "category": "AppointPresentIssue.Cardiovascular",
+                        "offset": 18,
+                        "length": 8
+					}
+				]
+			},
+		    {
+				"text": "I am sore",
+                "intent": "BookAppointment",
+                "entities": [
+                    {
+                        "category": "AppointCat.PhysicalHealth",
+                        "offset": 5,
+                        "length": 4
+					}
+				]
+			},		
+		    {
+				"text": "I want to meet a doctor",
+                "intent": "BookAppointment",
+                "entities": []
+			},
+		    {
+				"text": "I need to book an appointment",
+                "intent": "BookAppointment",
+                "entities": []	
+			},	 
+			{
+				"text": "Can you schedule a meeting for me",
+                "intent": "BookAppointment",
+                "entities": []	
+			},	 
+			{
+				"text": "Set up an appointment for tomorrow",
+                "intent": "BookAppointment",
+                "entities": []	
+			},	  
+			{
+				"text": "I'd like to make a booking",
+                "intent": "BookAppointment",
+                "entities": []	
+			},
+			{
+				"text": "I need to cancel my appointment",
+                "intent": "CancelAppointment",
+                "entities": []	
+			},
+			{
+				"text": "Can you help me cancel my booking",
+                "intent": "CancelAppointment",
+				"entities": []	
+			},
+			{
+				"text": "Cancel my appointment, please",
+                "intent": "CancelAppointment",
+                "entities": []	
+			},
+			{
+				"text": "I'd like to cancel the meeting I scheduled",
+                "intent": "CancelAppointment",
+                "entities": []	
+			},
+			{
+				"text": "Please cancel my reservation",
+                "intent": "CancelAppointment",
+                "entities": []	
+			},
+			{
+				"text": "Please remove my booking from your schedule",
+                "intent": "CancelAppointment",
+                "entities": []	
+			},
+			{
+				"text": "Make sure my appointment for next week is canceled",
+                "intent": "CancelAppointment",
+                "entities": []	
+			},
+			{
+				"text": "What do I need to know about this topic",
+                "intent": "AskGeneralQuestions",
+                "entities": []	
+			},
+			{
+				"text": "Could you clarify something for me",
+                "intent": "AskGeneralQuestions",
+                "entities": []	
+			},
+			{
+				"text": "Who should I contact for more details",
+                "intent": "AskGeneralQuestions",
+                "entities": []	
+			},
+			{
+				"text": "Where can I find additional information",
+                "intent": "AskGeneralQuestions",
+                "entities": []	
+			},
+			{
+				"text": "Would you mind answering a quick question",
+                "intent": "AskGeneralQuestions",
+                "entities": []	
+			},
+			{
+				"text": "I’d like to ask about something",
+                "intent": "AskGeneralQuestions",
+                "entities": []	
+			},
+			{
+				"text": "Do I have any appointments this week?",
+                "intent": "ConsultAppointment",
+                "entities": []	
+			},
+			{
+				"text": "Show me my upcoming appointments",
+                "intent": "ConsultAppointment",
+                "entities": []	
+			},
+			{
+				"text": "Are there any meetings booked for me",
+                "intent": "ConsultAppointment",
+                "entities": []	
+			},
+			{
+				"text": "What time is my next appointment",
+                "intent": "ConsultAppointment",
+                "entities": []	
+			},
+			{
+				"text": "What’s the purpose of my appointment tomorrow",
+                "intent": "ConsultAppointment",
+                "entities": []	
+			},
+			{			
+				"text": "I'm having abdominal pain",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointPresentIssue.Digestive",
+                        "offset": 11,
+                        "length": 9
+                    }
+				]
+			},
+			{			
+				"text": "I've been dealing with diarrhea for the past few days",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointPresentIssue.Digestive",
+                        "offset": 23,
+                        "length": 8
+                    }
+				]
+			},
+			{			
+				"text": "I feel nauseous and have been vomiting occasionally",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointPresentIssue.Digestive",
+                        "offset": 7,
+                        "length": 8
+                    },
+					{
+                        "category": "AppointPresentIssue.Digestive",
+                        "offset": 30,
+                        "length": 8
+                    }
+				]
+			},
+			{			
+				"text": "I've been experiencing constipation for the past few days.",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointPresentIssue.Digestive",
+                        "offset": 23,
+                        "length": 12
+                    }
+				]
+			},
+			{			
+				"text": "I've been having a lot of gastrointestinal problems lately, like nausea, stomach cramps, and diarrhea.",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointPresentIssue.Digestive",
+                        "offset": 26,
+                        "length": 16
+                    },
+					{
+                        "category": "AppointPresentIssue.Digestive",
+                        "offset": 65,
+                        "length": 6
+                    },
+					{
+                        "category": "AppointPresentIssue.Digestive",
+                        "offset": 93,
+                        "length": 8
+                    }
+				]
+			},
+			{			
+				"text": "I've been experiencing discomfort and irregularities in my colon, such as frequent pain and changes in bowel habits.",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointPresentIssue.Digestive",
+                        "offset": 59,
+                        "length": 5
+                    }
+				]
+			},
+			{			
+				"text": "I have occasional bleeding in the rectal area.",
+                "intent": "GetMedicalInfo",
+                "entities": [
+                    {
+                        "category": "AppointPresentIssue.Digestive",
+                        "offset": 34,
+                        "length": 6
+                    }
+				]
+			}
+		]
+	}
+}

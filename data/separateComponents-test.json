@@ -1,0 +1,80 @@
+{
+    "projectFileVersion": "2022-05-01",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0
+        },
+        "projectName": "TestMultiLabelClassification",
+        "multilingual": false,
+        "description": "Testing separateComponents for multi-label text classification",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "ProductFeedback"
+            }
+        ],
+        "entities": [
+            {
+                "category": "FeedbackAspects",
+                "compositionSetting": "separateComponents",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "Product Aspects",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "design",
+                                        "performance",
+                                        "battery life",
+                                        "display quality"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "utterances": [
+            {
+                "text": "I love the sleek design and fast performance of this phone.",
+                "intent": "ProductFeedback",
+                "entities": [
+                    {
+                        "category": "FeedbackAspects",
+                        "offset": 16,
+                        "length": 6
+                    },
+                    {
+                        "category": "FeedbackAspects",
+                        "offset": 31,
+                        "length": 11
+                    }
+                ]
+            },
+            {
+                "text": "The battery life and display quality are outstanding.",
+                "intent": "ProductFeedback",
+                "entities": [
+                    {
+                        "category": "FeedbackAspects",
+                        "offset": 4,
+                        "length": 12
+                    },
+                    {
+                        "category": "FeedbackAspects",
+                        "offset": 21,
+                        "length": 15
+                    }
+                ]
+            }
+        ]
+    }
+}

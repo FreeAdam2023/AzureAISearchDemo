@@ -133,3 +133,4 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 .idea
+tasks/HWCBO-614/typescript/language-detector/node_modules/@smodin/fast-text-language-detection/model/fast-text-lid-model.bin

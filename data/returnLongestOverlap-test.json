@@ -1,0 +1,69 @@
+{
+    "projectFileVersion": "2022-05-01",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0
+        },
+        "projectName": "TestProductRecommendation",
+        "multilingual": false,
+        "description": "Testing returnLongestOverlap for product recommendation specificity",
+        "language": "en-us"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "ProductInquiry"
+            }
+        ],
+        "entities": [
+            {
+                "category": "ProductNames",
+                "compositionSetting": "returnLongestOverlap",
+                "list": {
+                    "sublists": [
+                        {
+                            "listKey": "Samsung Products",
+                            "synonyms": [
+                                {
+                                    "language": "en-us",
+                                    "values": [
+                                        "Samsung Galaxy",
+                                        "Samsung Galaxy S21",
+                                        "Samsung Galaxy S21 Ultra"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ],
+        "utterances": [
+            {
+                "text": "I’m interested in the new Samsung Galaxy S21 Ultra.",
+                "intent": "ProductInquiry",
+                "entities": [
+                    {
+                        "category": "ProductNames",
+                        "offset": 24,
+                        "length": 27
+                    }
+                ]
+            },
+            {
+                "text": "I’m interested in the Samsung Galaxy.",
+                "intent": "ProductInquiry",
+                "entities": [
+                    {
+                        "category": "ProductNames",
+                        "offset": 21,
+                        "length": 14
+                    }
+                ]
+            }
+        ]
+    }
+}
