@@ -1,5 +1,5 @@
 {
-  "name": "typescript",
+  "name": "language-detector",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,12 +9,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
+    "@azure/ai-text-analytics": "^5.1.0",
+    "@smodin/fast-text-language-detection": "^0.2.3",
     "cld": "^2.10.1",
     "fasttext.js": "^1.1.4"
   },
   "devDependencies": {
-    "tsx": "^4.19.3"
-  }
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "description": ""
 }

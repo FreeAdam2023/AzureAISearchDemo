@@ -1,14 +1,10 @@
 {
-    "compilerOptions": {
-        "target": "ESNext",
-        "module": "ESNext",
-        "strict": true,
-        "esModuleInterop": true,
-        "moduleResolution": "node",
-        "outDir": "./dist",
-        "rootDir": "./src"
-    },
-    "include": [
-        "language-detector/src/**/*", "language-detector/src/**/*", "language-detector/src/types/**/*"
-    ]
+  "compilerOptions": {
+    "target": "ES2020",          // ✅ 支持可选链（?.）、空值合并（??）
+    "module": "CommonJS",        // ✅ 推荐用于 Node.js 环境
+    "moduleResolution": "node",  // ✅ 用于解析 node_modules
+    "esModuleInterop": true,     // ✅ 支持默认导入 CommonJS 包
+    "skipLibCheck": true,
+    "strict": true
+  }
 }
